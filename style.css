@@ -115,7 +115,9 @@ h4{
     justify-content: space-around;
     align-items: center;
     padding-top: 80px;
-    padding-bottom: 80px;}
+    padding-bottom: 80px;
+    margin-left: 100px;
+    margin-right: 100px;}
 
 .description{
     visibility: hidden;
@@ -131,14 +133,14 @@ h4{
 
 
 .rosto:hover .description{
-    visibility: visible;}
+    visibility: visible}
     
 
 .description-2 {
     visibility: hidden;
     padding: 5px;
-    margin-top: 230px;
-    height: 40%;
+    margin-top: 190px;
+    height: 45%;
     width: 100%;
     align-items: center;
     display: flex;
@@ -184,8 +186,13 @@ h4{
     color: #fff;
     font-family: 'Anton', sans-serif;
     font-size: 15px;
-    font-weight: 800;
     cursor: pointer;}
+
+.btn1:hover{
+    transition: ease-in .2s;
+    transform: scale(1.1);
+    background-color: #31a252;
+    color: #103b1d;}
 
 .btn2{
     border: none;
@@ -199,6 +206,18 @@ h4{
     font-family: 'Anton', sans-serif;
     font-size: 15px;
     cursor: pointer;}
+
+.btn2:hover{
+    background-color: #31a252;
+    color: #103b1d;
+    transition: ease-in .2s;
+    transform: scale(1.1);}
+
+.price{
+    font-family: 'Anton',sans-serif;
+    font-size: 18px;
+    color: #fff;
+}
 
 .produtos1{
     height: 250px;
@@ -291,3 +310,8 @@ h4{
     margin-left: 66px;
     margin-right: 66px;
     width: 90%;}
+
+.desconto{
+    display: flex;
+    padding-left: 140px;
+    padding-top: 1px ;}
